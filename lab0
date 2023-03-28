@@ -1,0 +1,16 @@
+#include <iostream>
+ 
+int main()
+{
+    int array[5]; 
+    array[0] = 3; 
+    array[1] = 2;
+    array[2] = 4;
+    array[3] = 8;
+    array[4] = 12;  
+ 
+    std::cout << "The array element with the smallest index has the value " << array[0] << "\n";
+    std::cout << "The sum of the first 5 numbers is " << array[0] + array[1] + array[2] + array[3] + array[4] << "\n";
+ 
+    return 0;
+}
